@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Press Start 2P'; /* Name you want to give to your font */
+  src: url('../PressStart2P-Regular.ttf') format('truetype'); /* Path to your font file */
+}
+
+*{
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #921d1d;
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+    color: #fff;
+    background-color: #5a0505; 
+    border: 1px solid#ffffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  p {
+    margin-top: 15px;
+    color: #fff;
+  }
+  
+  a {
+    color: #45a049;
+  }
+  
