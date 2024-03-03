@@ -117,13 +117,12 @@
     <p>2. Swap guns using the 1, 2, or 3 and Reload using "R" keys.</p>
     <p>3. Different guns deal varying damage</p>
     <p>4. Different types of enemies have varying HP and score.</p> 
-    <p id="hehehe">5. Still feeling a bit lost? Watch my demo video <a id="anchorTag">HERE!</a></p>
   </div>
 </div>
 
 <div class="modes-section" id="hardMode-section">
     <div class="rules">
-      <h2>HardMode (for the sigma chads tryhard wannabe pros out there) : </h2>
+      <h2>HardMode (for tryhards) : </h2>
       <p>1. Enemies spawn faster.</p>
       <p>2. They are also on steriods.</p>
       <p>3. Point per enemy is different from Easy Mode.</p>
@@ -151,22 +150,13 @@
     const playButton = document.getElementById('pplay-button');
     const rulesSection = document.getElementById('rrules-section');
     const modesSection = document.getElementById('hardMode-section');
-    const anchor = document.getElementById('anchorTag');
     const anchor2 = document.getElementById('anchorTag2');
-    const para = document.getElementById('hehehe');
-
-    anchor.addEventListener('click',()=>{
-        para.innerHTML = "Imagine getting rickrolled";
-        setTimeout(()=>{
-          window.location.href = "https://youtu.be/xvFZjo5PgG0?si=C_8-UX4R9f4BFIlk" ;
-        },1000)
-    })
 
     anchor2.addEventListener('click',()=>{
         anchor2.innerHTML = "heh";
         setTimeout(()=>{
           window.location.href = "https://youtu.be/xvFZjo5PgG0?si=C_8-UX4R9f4BFIlk" ;
-        },1000)
+        },500)
     })
     
     function handlePlayButtonClick() {
